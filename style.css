@@ -1,0 +1,839 @@
+.flex-container {
+    position: absolute;
+    width: 1482px;
+    background-color: white;
+    border: 0.5px solid #9F9F9F;
+    box-sizing: border-box;
+}
+
+.flex-container nav {
+    display: flex;
+    justify-content: space-between;
+    padding : 30px 25px;
+    align-items: baseline;
+}
+
+nav .logo {
+    flex: 1;
+    text-align: center;
+}
+
+nav .logo img {
+    width: 30px;
+    height: 33px;
+}
+
+nav .logo a {
+    color: #0B132A;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+nav .menu {
+    flex: 1.5;
+}
+
+nav .menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px 120px;
+}
+
+nav .menu ul li:hover{
+    font-weight: bold;
+}
+
+nav .menu ul li a{
+    font-family: 'Rubik', sans-serif;
+    color: #0B132A;
+}
+
+nav .account {
+    flex: 1;
+    text-align: center;
+}
+
+nav .account ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px 120px;
+}
+
+nav .account ul img {
+    width: 30px;
+    height: 30px;
+}
+
+nav .account ul .rounded img {
+    border-radius: 50%;
+}
+
+nav .menu-toggle input {
+    opacity: 0;
+}
+
+.flex-container #line1 {
+    width: 1482px;
+
+    background: #FFFFFF;
+    border: 0.5px solid #9f9f9f38;
+}
+
+main .jumbotron {
+    background-image: url(/image/background.png);
+    background-size: cover;
+    background-position: 0;
+    height: 1200px;
+}
+
+main .jumbotron .container .mainrec {
+    position: absolute;
+    width: 1133px;
+    height: 951px;
+    left: 150px;
+    top: 278px;
+
+    background: #F8F8F8;
+    border-radius: 20px;
+}
+
+main .jumbotron .container .formrec{
+    position: absolute;
+    width: 705px;
+    height: 841px;
+    left: 533px;
+    top: 332px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+}
+
+main .jumbotron .container .brline {
+    position: absolute;
+    width: 704px;
+    height: 12px;
+    left: 533px;
+    top: 1161px;
+
+    background: #6A4029;
+    box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.7);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main .jumbotron .container .propic img {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    top: 350px;
+    left: 270px;
+}
+
+main .jumbotron .container h5 {
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+main .jumbotron .container p {
+    position: absolute;
+    top: 575px;
+    left: 260px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+main .jumbotron .container h1 {
+    position: absolute;
+    width: 211px;
+    height: 53px;
+    left: 150px;
+    top: 194px;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    text-shadow: 0px 6px 8px rgba(255, 255, 255, 0.26);
+}
+
+main .jumbotron .container .btn-1 {
+    position: absolute;
+    width: 207px;
+    height: 44px;
+    left: 239px;
+    top: 620px;
+
+    background: #FFBA33;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #6A4029;
+    ;
+    font-family: 'Poppins';
+}
+main .jumbotron .container .btn-2 {
+    position: absolute;
+    width: 207px;
+    height: 44px;
+    left: 239px;
+    top: 680px;
+
+    background: #6A4029;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+main .jumbotron .container .btn-3 {
+    position: absolute;
+    width: 207px;
+    height: 60px;
+    left: 239px;
+    top: 760px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    color: #6A4029;
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: 'Poppins';
+}
+main .jumbotron .container .btn-4 {
+    position: absolute;
+    width: 207px;
+    height: 60px;
+    left: 239px;
+    top: 926px;
+
+    background: #6A4029;
+    border-radius: 20px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Poppins';
+}
+main .jumbotron .container .btn-5 {
+    position: absolute;
+    width: 207px;
+    height: 60px;
+    left: 239px;
+    top: 1010px;
+
+    background: #FFBA33;
+    border-radius: 20px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: #6A4029;
+    font-family: 'Poppins';
+}
+main .jumbotron .container .btn-6 {
+    position: absolute;
+    width: 207px;
+    height: 60px;
+    left: 239px;
+    top: 1110px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    color: #6A4029;
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: 'Poppins';
+}
+
+main .jumbotron .container h4 {
+    position: absolute;
+    left: 247px;
+    top: 840px;
+    color: #6A4029;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main .jumbotron .container h3 {
+    position: absolute;
+    left: 563px;
+    top: 349px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #4F5665;
+}
+
+main .jumbotron .container .addr .email {
+    position: absolute;
+    left: 563.02px;
+    top: 408px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+
+main .jumbotron .container .addr .delivadd {
+    position: absolute;
+    left: 563px;
+    top: 528px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+
+main .jumbotron .container .addr .numb {
+    position: absolute;
+    left: 966px;
+    top: 407px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+
+main .jumbotron .container h2 {
+    position: absolute;
+    left: 565px;
+    top: 665px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #4F5665;
+}
+
+main .jumbotron .container .bio .dname {
+    position: absolute;
+    left: 565px;
+    top: 732px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+main .jumbotron .container .bio .fname {
+    position: absolute;
+    left: 564px;
+    top: 832px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+main .jumbotron .container .bio .lname {
+    position: absolute;
+    left: 564px;
+    top: 932px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+main .jumbotron .container .bio .born {
+    position: absolute;
+    left: 966px;
+    top: 732px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #9F9F9F;
+}
+
+main .jumbotron .container .line1 {
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 563px;
+    top: 480.24px;
+
+    border: 1px solid #000000;
+}
+main .jumbotron .container .line2 {
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 563px;
+    top: 624px;
+
+    border: 1px solid #000000;
+}
+main .jumbotron .container .line3 {
+    position: absolute;
+    width: 201.03px;
+    height: 0px;
+    left: 965.98px;
+    top: 480.02px;
+
+    border: 1px solid #000000;
+}
+main .jumbotron .container .line4 {
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 565px;
+    top: 807px;
+
+    border: 1px solid #000000;
+}
+main .jumbotron .container .line5 {
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 564px;
+    top: 906.55px;
+
+    border: 1px solid #000000;
+}
+main .jumbotron .container .line6 {
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 563px;
+    top: 480.24px;
+
+    border: 1px solid #000000;
+}
+main .jumbotron .container .line7 {
+    position: absolute;
+    width: 201px;
+    height: 0px;
+    left: 966px;
+    top: 807px;
+
+    border: 1px solid #000000;
+}
+
+footer {
+    display: flex;
+    background: #F8F8F8;
+    padding-bottom: 50px;
+}
+
+footer .desc {
+    flex: 2.5;
+    padding-top: 50px;
+    padding-left: 152px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .desc img {
+    width: 30px;
+    height: 33px;
+}
+
+footer .desc a {
+    color: #0B132A;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer .desc .socmed img {
+    width: 33px;
+    height: 33px;
+}
+
+footer .desc .cr {
+    color: #AFB5C0;
+    font-family: 'Rubik', sans-serif;
+}
+
+footer .product {
+    flex: 1;
+    padding-top: 50px;
+    text-align: left;
+}
+
+footer .product ul {
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0px;
+    line-height: 45px;
+}
+
+footer .product ul a {
+    color: #0B132A;
+}
+
+footer .engage {
+    flex: 1;
+    padding-top: 50px;
+    text-align: left;
+}
+footer .engage ul {
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0px;
+    line-height: 45px;
+}
+
+footer .engage ul a {
+    color: #0B132A;
+}
+
+/* mobile */
+
+@media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    nav .logo {
+        justify-content: center;
+    }
+    nav .menu ul {
+        position: absolute;
+        left: 1130px;
+        width: 350px;
+        top: 0px;
+        flex-direction: column;
+        background-color: #6A4029;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 300px;
+        font-size: 25px;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav .menu .slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    nav .account {
+        position: absolute;
+        justify-content: space-evenly;
+        left: 670px;
+        top: 70px;
+        width: 100px;
+        height: 30px;
+    }
+    nav .logo img {
+        width: 80px;
+        height: 80px;
+    }
+    nav .logo a {
+        position: relative;
+        top: 20px;
+        font-size: 50px;
+    }
+
+    /* hamburger menu */
+    nav .menu-toggle {
+        position: relative;
+        right: 100px;
+        display: flex;
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        border-color: rgba(255, 127, 80, 0);
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    nav .menu-toggle input {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    nav .menu-toggle span {
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: rgb(0, 0, 0);
+        border-color: rgba(255, 127, 80, 0);
+        border-radius: 3px;
+    }
+
+    
+
+    footer {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background: #F8F8F8;
+    }
+    
+    footer .desc {
+        padding-top: 600px;
+        padding-left: 152px;
+        line-height: 50px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    footer .desc img {
+        width: 60px;
+        height: 63px;
+    }
+    
+    footer .desc a {
+        color: #0B132A;
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    footer .desc .socmed img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    footer .desc .cr {
+        color: #afb5c0a4;
+        font-size: 30px;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    footer .product {
+        position: absolute;
+        left: 300px;
+        flex: 1;
+        text-align: left;
+    }
+    
+    footer .product h4 {
+        font-size: 50px;
+    }
+
+    footer .product ul {
+        flex-direction: column;
+        list-style: none;
+        padding-left: 0px;
+        line-height: 70px;
+    }
+    
+    footer .product ul a {
+        color: #0B132A;
+        font-size: 40px;
+    }
+    
+    footer .engage h4 {
+        font-size: 50px;
+    }
+
+    footer .engage {
+        position: absolute;
+        width: 500px;
+        left: 960px;
+        flex: 1;
+        text-align: left;
+    }
+    footer .engage ul {
+        flex-direction: column;
+        list-style: none;
+        padding-left: 0px;
+        line-height: 70px;
+    }
+    
+    footer .engage ul a {
+        font-size: 40px;
+        color: #0B132A;
+    }
+
+    main .jumbotron {
+        background-image: url(/image/background.png);
+        background-size: cover;
+        background-position: 0;
+        height: 1500px;
+    }
+
+    main .jumbotron .container .mainrec {
+        position: absolute;
+        width: 1133px;
+        height: 350px;
+        left: 150px;
+        top: 278px;
+    
+        background: #F8F8F8;
+        border-radius: 20px;
+    }
+    
+    main .jumbotron .container .formrec{
+        position: absolute;
+        width: 1133px;
+        height: 841px;
+        left: 150px;
+        top: 650px;
+    
+        background: #FFFFFF;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.22);
+        border-radius: 10px;
+    }
+
+    main .jumbotron .container .brline {
+        position: absolute;
+        width: 1133px;
+        height: 12px;
+        left: 150px;
+        top: 1478px;
+    
+        background: #6A4029;
+        box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.7);
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    main .jumbotron .container .btn-1 {
+        position: absolute;
+        width: 207px;
+        height: 50px;
+        left: 550px;
+        top: 400px;
+    
+        background: #FFBA33;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        color: #6A4029;
+        ;
+        font-family: 'Poppins';
+    }
+    main .jumbotron .container .btn-2 {
+        position: absolute;
+        width: 207px;
+        height: 50px;
+        left: 550px;
+        top: 490px;
+    
+        background: #6A4029;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: 'Poppins';
+    }
+    main .jumbotron .container .btn-3 {
+        position: absolute;
+        width: 207px;
+        height: 60px;
+        left: 950px;
+        top: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 40px;
+        color: #6A4029;
+        border: 1px solid #9F9F9F;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-family: 'Poppins';
+    }
+    main .jumbotron .container .btn-4 {
+        position: absolute;
+        width: 207px;
+        height: 60px;
+        left: 239px;
+        top: 926px;
+    
+        background: #6A4029;
+        border-radius: 20px;
+        line-height: 42px;
+        text-align: center;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: 'Poppins';
+    }
+    main .jumbotron .container .btn-5 {
+        position: absolute;
+        width: 207px;
+        height: 60px;
+        left: 239px;
+        top: 1010px;
+    
+        background: #FFBA33;
+        border-radius: 20px;
+        line-height: 42px;
+        text-align: center;
+        font-weight: bold;
+        color: #6A4029;
+        font-family: 'Poppins';
+    }
+    main .jumbotron .container .btn-6 {
+        position: absolute;
+        width: 207px;
+        height: 60px;
+        left: 950px;
+        top: 490px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 40px;
+        color: #6A4029;
+        border: 1px solid #9F9F9F;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-family: 'Poppins';
+    }
+
+    main .jumbotron .container .form {
+        position: absolute;
+        top: 400px;
+        left: 0px;
+    }
+}
